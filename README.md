@@ -26,3 +26,7 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
+
+## License
+
+[MIT](https://github.com/ideasbhatti/poetry_django_docker/blob/main/LICENSE)
