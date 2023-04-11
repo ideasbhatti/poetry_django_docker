@@ -3,8 +3,10 @@ version: '3.9'
 services:
   web:
     build: .
-    command: poetry run python3 manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/app
     ports:
       - "8000:8000"
+    image: app:web
+    container_name: django_poetry
+    command: poetry run python3 manage.py runserver 0.0.0.0:8000
